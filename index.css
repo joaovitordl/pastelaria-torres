@@ -1,0 +1,71 @@
+* {
+  padding: 0px;
+  margin: 0;
+}
+
+body, html {
+  line-height: 1.5;
+  overflow-x: hidden !important;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+ display: block;
+ text-align: center;
+ margin-top: 0px;
+}
+
+.list{
+  background-color: #e4e4e4;
+  min-height: 70vh;
+}
+
+.list-itens {
+ padding: 15px;
+ color: #fff;
+ text-align: center;
+}
+
+.list-itens button {
+background-color: #fada1f;
+border: #fff;
+color: #0d0d0c;
+border-radius: 30px;
+font-weight: bolder;
+font-size: 18px;
+padding: 10px 50px;
+}
+
+.list-itens button:hover {
+  color: #fada1f;
+  background: #fff;
+}
+
+footer {
+  background-color: #0d0d0c;
+  color: #fff;
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  padding: 10px;
+}
+@media screen and (max-width: 600px) {
+
+.list{
+  text-align: center;
+  min-height: 70vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.692), rgba(0, 0, 0, 0.692)),url(/img/foto1.png);
+  background-position-y: center;
+ }
+
+}
+
+
+/*
+cores:
+#fada1f - laranja
+#0d0d0c - preto
+#5d5d5d - cinza
+#848484 
+#dad9ca
